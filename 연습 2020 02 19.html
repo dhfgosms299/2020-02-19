@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title> input 태그 연습 </title>
+</head>
+<body>
+  <h2><font color="red"> 상품 주문서</font> </h2>
+  <fieldset style="width:50%;">
+         <legend><h2> <font color="purpple">개인정보</font> </h2> </legend>
+            <br>
+           이름 <label>
+                  <input type="text">
+                </label><br>
+          연락처 <label>
+                   <input type="text">
+                 </label>
+    </fieldset>
+        <br>
+        <br>
+        <br>
+
+     <fieldset style="width:50%;">
+          <legend> <h2><font color="purpple">배송지 정보</font></h2> </legend>
+              <br>
+              주소&nbsp;<label>
+                   <input type="text">
+                      </label><br>
+              전화번호&nbsp;<label>
+                    <input type="tel">
+                      </label><br>
+              매모&nbsp;<label>
+                     <input type="text" style="width:500px; height:200px;" >
+                      </label><br>
+      </fieldset><br>
+        <form>
+          <fieldset style="width:50%;">
+             <legend> <h2><font color="purpple">주문정보</font></h2> </legend><br>
+                <label>
+                  <input type="checkbox" name="과테말라" value="0" >과테말라 안티구마 (100g)
+                  <input type="text" value="0" min="0" max="100" style="width:20px;">개
+                </label><br>
+                <label>
+                  <input type="checkbox" name="인도네시아" range value="0">인도네시아 만델링(100g)
+                  <input type="text" value="0" min="0" max="100" style="width:20px;">개
+                </label><br>
+                <label>
+                  <input type="checkbox" name="탐라는도다" value="0"> 탐라는도다(블랜딩) (100g)
+                  <input type="text" value="0" min="0" max="100" style="width:20px;">개
+                </label><br>
+           </fieldset>
+           <input type="submit" value="주문하기">
+           <input type="reset" value="다시작성">
+         </form>
+</body>
+</html>
